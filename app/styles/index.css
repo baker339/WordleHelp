@@ -1,0 +1,63 @@
+input {
+  border: 2px solid cornflowerblue;
+  border-radius: 5px;
+  margin-left: 1px;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.input-form {
+  display: grid;
+  place-content: center;
+  margin-block: 2rem;
+}
+
+.clear-btn {
+  display: grid;
+  place-content: center;
+  width: 10rem;
+  height: 2rem;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 5px;
+}
+
+.clear-btn-container {
+  display: grid;
+  place-content: center;
+}
+
+.word-list {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  width: 75vw;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+label {
+  margin-inline: 0.5rem;
+}
+
+.includes-container {
+  border: 2px solid cornflowerblue;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.letter-inputs {
+  margin-bottom: 2rem;
+  border: 2px solid cornflowerblue;
+  padding: 1rem;
+  padding-top: 0;
+  border-radius: 5px;
+}
+
+.letter-inputs input {
+  max-width: 3rem;
+}
