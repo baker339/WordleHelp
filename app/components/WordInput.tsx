@@ -64,6 +64,11 @@ export default function WordInput() {
     setThirdLetter("");
     setFourthLetter("");
     setFifthLetter("");
+    setNotFirstLetter([]);
+    setNotSecondLetter([]);
+    setNotThirdLetter([]);
+    setNotFourthLetter([]);
+    setNotFifthLetter([]);
   }
 
   function calcConstellation(word: string): number {
